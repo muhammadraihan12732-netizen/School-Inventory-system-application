@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@source "../views";
+@source "../js";
+
+/* Palet: papan tulis hijau tua + kapur kuning, kertas putih kebiruan */
+@theme {
+    --font-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Bricolage Grotesque', 'Public Sans', ui-sans-serif, sans-serif;
+
+    --color-paper: #f3f6f5;
+    --color-board-950: #0c2223;
+    --color-board-900: #123234;
+    --color-board-800: #1a4547;
+    --color-board-700: #236165;
+    --color-chalk: #e6eeea;
+    --color-mark: #f2c230;
+    --color-mark-dark: #dba90f;
+}
+
+@media print {
+    body { background: white; }
+}
